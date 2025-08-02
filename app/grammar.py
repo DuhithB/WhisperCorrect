@@ -4,7 +4,7 @@ import google.generativeai as genai
 
 load_dotenv()
 
-api_key = os.getenv("AIzaSyAkddxgt78M69gQtUz9v9dCsTRnXs5oy8Y")
+api_key = os.getenv("enter_your_google_api_secret_key_here")
 genai.configure(api_key=api_key)
 
 def correct_grammar(text: str) -> str:
